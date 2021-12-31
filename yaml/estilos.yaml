@@ -1,0 +1,12 @@
+host1: luciano
+datacenter:
+  location: São Paulo
+  router: 42
+roles:
+  - web
+  - dns
+
+host2: "luciano"
+datacenter2: { location: 
+  São Paulo, router: 42 }
+router2: [ web, dns ] 
