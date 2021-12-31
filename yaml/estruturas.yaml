@@ -1,0 +1,18 @@
+---
+host: luciano
+datacenter:
+  location: São Paulo
+  router: 42
+  switch: 34
+---
+host: luciano2
+datacenter:
+  location: São Paulo
+  router: 43
+  switch: 33
+---
+host: qualqueroutro
+datacenter:
+  location: algum lugar
+  router: 60
+  switch: 1
