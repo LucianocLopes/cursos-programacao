@@ -1,0 +1,15 @@
+---
+host: luciano
+datacenter:
+  location: &SP São Paulo
+---
+host: geek
+datacenter:
+  location: *SP
+---
+roles: &ghost
+  - webserver
+  - database
+---
+---
+roles: *ghost
