@@ -1,0 +1,7 @@
+# Configurações do host luciano
+---
+host: luciano
+datacenter:
+  location: São Paulo # Capital do estado
+  router: 42
+  switch: 34
