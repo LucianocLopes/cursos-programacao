@@ -1,0 +1,13 @@
+%TAG ! tag:host:luciano:
+---
+host: luciano
+datacenter:
+  location: !LUCIANO São Paulo
+  router: "42"
+  switch: '34'
+---
+host: geek
+datacenter:
+  location: Colorado
+  router: !!str 45
+  switch: !!str 23
